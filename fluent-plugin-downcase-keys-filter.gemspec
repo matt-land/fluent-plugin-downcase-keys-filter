@@ -2,12 +2,12 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = "fluent-plugin-downcase-keys"
+  gem.name        = "fluent-plugin-downcase-keys-filter"
   gem.version     = "0.1"
   gem.license     = "Apache 2.0"
   gem.authors     = ["Matt Land"]
   gem.email       = "mwfrankland@gmail.com"
-  gem.homepage    = "https://github.com/matt-land/fluent-downcase-keys"
+  gem.homepage    = "https://github.com/matt-land/fluent-plugin-downcase-keys-filter"
   gem.summary     = %q[Fluentd output plugin. Downcases all keys and re-emit the records.]
   gem.has_rdoc    = false
 

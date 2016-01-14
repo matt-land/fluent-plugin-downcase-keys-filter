@@ -1,4 +1,4 @@
-# fluent-downcase-keys, a plugin for [Fluentd](http://fluentd.org)
+# fluent-plugin-downcase-keys-filter, a plugin for [Fluentd](http://fluentd.org)
 
 ## Status
 YMMV
