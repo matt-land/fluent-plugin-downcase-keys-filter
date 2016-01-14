@@ -2,13 +2,13 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = "fluent-plugin-rename-key"
-  gem.version     = "0.1.4"
+  gem.name        = "fluent-plugin-downcase-keys"
+  gem.version     = "0.1"
   gem.license     = "Apache 2.0"
-  gem.authors     = ["Shunwen Hsiao"]
-  gem.email       = "hsiaoshunwen@gmail.com"
-  gem.homepage    = "https://github.com/shunwen/fluent-plugin-rename-key"
-  gem.summary     = %q[Fluentd output plugin. Rename keys which match given regular expressions, assign new tags and re-emit the records.]
+  gem.authors     = ["Matt Land"]
+  gem.email       = "mwfrankland@gmail.com"
+  gem.homepage    = "https://github.com/matt-land/fluent-downcase-keys"
+  gem.summary     = %q[Fluentd output plugin. Downcases all keys and re-emit the records.]
   gem.has_rdoc    = false
 
   gem.files       = `git ls-files`.split("\n")
